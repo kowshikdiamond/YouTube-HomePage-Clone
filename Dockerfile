@@ -11,5 +11,5 @@ COPY styles /usr/share/nginx/html/styles/
 # Copy the images folder with images
 COPY images /usr/share/nginx/html/images/
 
-# Expose port 805 to the outside world
-EXPOSE 805
+# Expose port 80 to the outside world
+EXPOSE 80
